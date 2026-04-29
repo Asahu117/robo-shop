@@ -3,3 +3,6 @@
 *-private.*
 vendor/
 Gopkg.lock
+graphify-out/cache/
+graphify-out/manifest.json
+graphify-out/cost.json
