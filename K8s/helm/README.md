@@ -56,7 +56,7 @@ Optionally Website Monitoring / End-User Monitoring can be enabled for the web p
 ```shell
 $ helm install \
     --set eum.key=xxxxxxxxx \
-    --set eum.url=https://eum-eu-west-1.instana.io \
+    --set eum.url=https://teal.instana.io/eum/ \
     ...
 ```
 
@@ -85,7 +85,7 @@ $ helm install robo-shop --namespace robo-shop --set openshift=true helm
 | Key              | Default | Type   | Description |
 | ---------------- | ------- | ------ | ----------- |
 | eum.key          | null    | string | EUM Access Key |
-| eum.url          | https://eum-eu-west-1.instana.io | url | EUM endpoint URL |
+| eum.url          | https://teal.instana.io/eum/ | url | EUM endpoint URL |
 | image.pullPolicy | IfNotPresent | string | Kubernetes pull policy. One of Always,IfNotPresent, or Never. |
 | image.repo       | robotshop | string | Base docker repository to pull the images from. |
 | image.version    | latest | string | Docker tag to pull. |
