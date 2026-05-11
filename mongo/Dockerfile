@@ -1,4 +1,5 @@
-FROM mongo:5
+FROM mongo:5-slim
 
-COPY *.js /docker-entrypoint-initdb.d/
+WORKDIR /docker-entrypoint-initdb.d/
 
+COPY *.js ./

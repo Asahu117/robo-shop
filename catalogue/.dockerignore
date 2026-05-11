@@ -1,0 +1,9 @@
+vendor/
+var/cache/
+var/log/
+.git/
+.idea/
+.vscode/
+*.log
+Dockerfile
+README.md

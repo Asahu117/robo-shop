@@ -23,3 +23,5 @@ graphify-out/cost.json
 .graphify_manifest_*.json
 .graphify_cost_*.json
 graphify-out/cache/
+.gemini
+.github/copilot-instructions.md

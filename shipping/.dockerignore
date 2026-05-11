@@ -1,0 +1,9 @@
+target/
+.git/
+.idea/
+.vscode/
+*.log
+*.class
+.mvn/
+Dockerfile
+README.md

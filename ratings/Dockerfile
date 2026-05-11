@@ -29,3 +29,14 @@ RUN rm -Rf /var/www/var/*
 RUN chown -R www-data /var/www
 RUN chmod -R 777 /var/www
 
+
+
+
+#Stage-1: Build the image with all necessary files and configurations
+
+FROM php:7.4-apache as builder 
+
+WORKDIR /build
+
+
+

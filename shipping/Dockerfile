@@ -1,31 +1,23 @@
-#
-# Build
-#
-FROM debian:10 AS build
+#Stage 1: Build the image with all necessary files and configurations
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-        ca-certificates-java \
-        maven && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* && \
-    update-ca-certificates -f
+FROM maven:3.6.3-jdk-8 AS build
+
 
 WORKDIR /opt/shipping
 
-COPY pom.xml /opt/shipping/
-RUN mvn dependency:resolve
-COPY src /opt/shipping/src/
-RUN mvn package
+COPY pom.xml .
+RUN mvn dependency:go-offline
 
-#
-# Run
-#
-FROM openjdk:8-jdk
+COPY src  ./src
+RUN mvn clean package -DskipTests
+
+#stage 2: Create a clean image with only necessary files
+
+FROM openjdk:8-jre-slim
+
+WORKDIR /opt/shipping
 
 EXPOSE 8080
-
-WORKDIR /opt/shipping
 
 ENV CART_ENDPOINT=cart:8080
 ENV DB_HOST=mysql
@@ -33,4 +25,7 @@ ENV DB_HOST=mysql
 COPY --from=build /opt/shipping/target/shipping-1.0.jar shipping.jar
 
 CMD [ "java", "-Xmn256m", "-Xmx768m", "-jar", "shipping.jar" ]
+
+
+
 

@@ -1,0 +1,12 @@
+vendor/
+var/cache/
+var/log/
+.git/
+.gitignore
+.idea/
+.vscode/
+*.log
+.env
+README.md
+Dockerfile
+.dockerignore
