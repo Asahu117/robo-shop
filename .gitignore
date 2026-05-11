@@ -23,12 +23,14 @@ graphify-out/cost.json
 .graphify_manifest_*.json
 .graphify_cost_*.json
 graphify-out/cache/
-.gemini
-.github/copilot-instructions.md
+# AI / Tooling
 .claude/
 .codex/
 .gemini/
+.github/copilot*
+
 CLAUDE.md
 GEMINI.md
+CHAT_LOG.md
 AGENTS.md
 Notes.txt
