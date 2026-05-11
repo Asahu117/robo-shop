@@ -18,7 +18,7 @@ spec:
         stage: prod
     spec:
       {{ if .Values.psp.enabled }}
-      serviceAccountName: robot-shop
+      serviceAccountName: {{ .Release.Name }}
       {{ end }}
       containers:
       - name: payment

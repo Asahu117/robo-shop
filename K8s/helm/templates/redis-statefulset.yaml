@@ -16,7 +16,7 @@ spec:
         service: redis
     spec:
       {{ if .Values.psp.enabled }}
-      serviceAccountName: robot-shop
+      serviceAccountName: {{ .Release.Name }}
       {{ end }}
       containers:
       - name: redis
@@ -59,4 +59,3 @@ spec:
         resources:
           requests:
             storage: 1Gi
-

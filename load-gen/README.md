@@ -43,7 +43,7 @@ Set the following environment variables to configure the load:
 To run the load test in Kubernetes, apply the `K8s/load-deployment.yaml` configuration in your Kubernetes cluster. This will deploy the load generation, check the settings in the file first.
 
 ```shell
-$ kubectl -n robot-shop apply -f K8s/load-deployment.yaml
+$ kubectl -n robo-shop apply -f K8s/load-deployment.yaml
 ```
 
 If you want to enable auto-scaling on relevant components (non-databases), just run the script in the autoscaling directory. However you will first need to make sure  a [metrics-server](https://kubernetes.io/docs/tasks/debug-application-cluster/resource-metrics-pipeline/) is running on your cluster, this enables the Horizontal Pod Autoscaler to know about the CPU and memory usage of the pods. From Kubernetes version 1.8, a `metrics-serer` deployment should be configured by default, run the command below to check.

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-NS="robot-shop"
+NS="robo-shop"
 DEPLOYMENTS="cart catalogue dispatch payment ratings shipping user web"
 
 for DEP in $DEPLOYMENTS
@@ -11,4 +11,3 @@ done
 echo "Waiting 5 seconds for changes to apply..."
 sleep 5
 kubectl -n $NS get hpa
-

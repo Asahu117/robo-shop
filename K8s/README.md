@@ -8,7 +8,7 @@ Install Stan's Robot Shop on to your K8s cluster using the helm chart, see the [
 
 ```shell
 $ cd helm
-$ helm install --name robot-shop --namespace robot-shop .
+$ helm install robo-shop --namespace robo-shop .
 ```
 
 ## Quotas and Scaling
@@ -16,19 +16,19 @@ $ helm install --name robot-shop --namespace robot-shop .
 You can apply resource quotas to the namespace where you installed Stan's Robot Shop.
 
 ```shell
-$ kubectl -n robot-shop apply -f resource-quota.yaml
+$ kubectl -n robo-shop apply -f resource-quota.yaml
 ```
 
 The quotas and usage are shown in the Instana Kubernetes dashboards.
 
-Optinally you can also run the `autoscale.sh` script to configure automatic scaling of the deployments. You will need to edit the script if you did not deploy to the `robot-shop` namespace. Varying the load on the application will cause Kubernetes to scale up/down the various deployments.
+Optinally you can also run the `autoscale.sh` script to configure automatic scaling of the deployments. It is configured for the `robo-shop` namespace. Varying the load on the application will cause Kubernetes to scale up/down the various deployments.
 
 ## Istio
 
 Stan's Robot Shop will run on Kubernetes with Istio service mesh. Configure Istio ingress.
 
 ```shell
-$ kubectl -n robot-shop apply -f Istio/gateway.yaml
+$ kubectl -n robo-shop apply -f Istio/gateway.yaml
 ```
 
 Now use the exposed Istio gateway to access Robot Shop.

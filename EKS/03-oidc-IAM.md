@@ -1,7 +1,7 @@
 # commands to configure IAM OIDC provider 
 
 ```
-export cluster_name=<CLUSTER-NAME>
+export cluster_name=roboshop
 ```
 
 ```
