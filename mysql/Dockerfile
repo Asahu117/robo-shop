@@ -6,7 +6,7 @@ WORKDIR /build
 COPY config.sh .
 COPY scripts/* ./scripts/
 
-RUN CHMOD +x config.sh
+RUN chmod +x config.sh
 
 #Stage 2: Create a clean image with only necessary files
 
