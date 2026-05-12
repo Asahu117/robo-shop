@@ -48,5 +48,5 @@ jobs:
           context: ./shipping
           push: true  # Push the image to registry
           tags: |
-                ${{ secrets.DOCKERHUB_USERNAME }}/shipping:${{ github.sha }}  # Tag with commit SHA for traceability
-                ${{ secrets.DOCKERHUB_USERNAME }}/shipping:latest  # Tag as latest for main branch pushes
+                ${{ secrets.DOCKERHUB_USERNAME }}/shipping:${{ github.sha }}  
+                ${{ secrets.DOCKERHUB_USERNAME }}/shipping:latest  

@@ -48,5 +48,5 @@ jobs:
            context: ./catalogue
            push: true  # Push the image to registry
            tags: |
-               ${{ secrets.DOCKERHUB_USERNAME }}/catalogue:${{ github.sha }}  # Tag with commit SHA for traceability
-               ${{ secrets.DOCKERHUB_USERNAME }}/catalogue:latest  # Tag as latest for main branch pushes
+               ${{ secrets.DOCKERHUB_USERNAME }}/catalogue:${{ github.sha }}  
+               ${{ secrets.DOCKERHUB_USERNAME }}/catalogue:latest  
