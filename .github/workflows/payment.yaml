@@ -48,5 +48,5 @@ jobs:
           context: ./payment
           push: true  # Push the image to registry
           tags: |
-                ${{ secrets.DOCKERHUB_USERNAME }}/payment:${{ github.sha }}  # Tag with commit SHA for traceability
-                ${{ secrets.DOCKERHUB_USERNAME }}/payment:latest  # Tag as latest for main branch pushes
+                ${{ secrets.DOCKERHUB_USERNAME }}/payment:${{ github.sha }}  
+                ${{ secrets.DOCKERHUB_USERNAME }}/payment:latest  
