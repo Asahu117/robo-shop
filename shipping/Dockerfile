@@ -13,7 +13,7 @@ RUN mvn clean package -DskipTests
 
 #stage 2: Create a clean image with only necessary files
 
-FROM openjdk:8-jre-slim
+FROM eclipse-temurin:8-jre
 
 WORKDIR /opt/shipping
 
