@@ -34,3 +34,13 @@ GEMINI.md
 CHAT_LOG.md
 AGENTS.md
 Notes.txt
+
+#Local Docker Compose files
+docker-compose.load.yaml
+docker-compose.yaml
+
+pullbaseimages.yaml
+
+.github/workflows/push.yml
+
+
