@@ -77,7 +77,7 @@ Combine the IP and port number to make the URL `http://192.168.66.101:32145`
 Openshift is like K8s but not K8s. Set `openshift` to true or things will break. See the notes and scripts in the OpenShift directory of this repo.
 
 ```shell
-$ helm install robo-shop --namespace robo-shop --set openshift=true helm
+$ helm install robo-shop --namespace robo-shop --set openshift=true .
 ```
 
 ## Deployment Parameters
