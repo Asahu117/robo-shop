@@ -1,348 +1,266 @@
-# Graph Report - .  (2026-05-12)
+# Graph Report - .  (2026-05-13)
 
 ## Corpus Check
-- 74 files · ~52,038 words
+- 149 files · ~59,952 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 390 nodes · 419 edges · 46 communities detected
-- Extraction: 83% EXTRACTED · 17% INFERRED · 0% AMBIGUOUS · INFERRED: 72 edges (avg confidence: 0.8)
+- 501 nodes · 575 edges · 63 communities (42 shown, 21 thin omitted)
+- Extraction: 81% EXTRACTED · 19% INFERRED · 0% AMBIGUOUS · INFERRED: 108 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Error Handling & Utilities|Error Handling & Utilities]]
-- [[_COMMUNITY_Payment Service|Payment Service]]
-- [[_COMMUNITY_Shipping & Logistics|Shipping & Logistics]]
-- [[_COMMUNITY_Code & Schema|Code & Schema]]
-- [[_COMMUNITY_City & Calculator|City & Calculator]]
-- [[_COMMUNITY_Order Processing|Order Processing]]
-- [[_COMMUNITY_User Management|User Management]]
-- [[_COMMUNITY_Ratings API|Ratings API]]
-- [[_COMMUNITY_Frontend Components|Frontend Components]]
-- [[_COMMUNITY_Monitoring & Observability|Monitoring & Observability]]
-- [[_COMMUNITY_Component 10|Component 10]]
-- [[_COMMUNITY_Component 11|Component 11]]
-- [[_COMMUNITY_Component 12|Component 12]]
-- [[_COMMUNITY_Component 13|Component 13]]
-- [[_COMMUNITY_Component 14|Component 14]]
-- [[_COMMUNITY_Component 15|Component 15]]
-- [[_COMMUNITY_Component 16|Component 16]]
-- [[_COMMUNITY_Component 17|Component 17]]
-- [[_COMMUNITY_Component 18|Component 18]]
-- [[_COMMUNITY_Component 19|Component 19]]
-- [[_COMMUNITY_Component 20|Component 20]]
-- [[_COMMUNITY_Component 21|Component 21]]
-- [[_COMMUNITY_Component 22|Component 22]]
-- [[_COMMUNITY_Component 23|Component 23]]
-- [[_COMMUNITY_Component 24|Component 24]]
-- [[_COMMUNITY_Component 25|Component 25]]
-- [[_COMMUNITY_Component 26|Component 26]]
-- [[_COMMUNITY_Component 27|Component 27]]
-- [[_COMMUNITY_Component 28|Component 28]]
-- [[_COMMUNITY_Component 29|Component 29]]
-- [[_COMMUNITY_Component 30|Component 30]]
-- [[_COMMUNITY_Component 31|Component 31]]
-- [[_COMMUNITY_Component 32|Component 32]]
-- [[_COMMUNITY_Component 33|Component 33]]
-- [[_COMMUNITY_Component 34|Component 34]]
-- [[_COMMUNITY_Component 35|Component 35]]
-- [[_COMMUNITY_Component 36|Component 36]]
-- [[_COMMUNITY_Component 37|Component 37]]
-- [[_COMMUNITY_Component 38|Component 38]]
-- [[_COMMUNITY_Component 39|Component 39]]
-- [[_COMMUNITY_Component 40|Component 40]]
-- [[_COMMUNITY_Component 49|Component 49]]
-- [[_COMMUNITY_Component 50|Component 50]]
-- [[_COMMUNITY_Component 51|Component 51]]
-- [[_COMMUNITY_Component 52|Component 52]]
-- [[_COMMUNITY_Component 53|Component 53]]
+- [[_COMMUNITY_Core Microservices Stack|Core Microservices Stack]]
+- [[_COMMUNITY_PHP Service Implementations|PHP Service Implementations]]
+- [[_COMMUNITY_Helm Chart Configuration|Helm Chart Configuration]]
+- [[_COMMUNITY_Helm Deployment Templates|Helm Deployment Templates]]
+- [[_COMMUNITY_Shipping Data Layer|Shipping Data Layer]]
+- [[_COMMUNITY_Web Frontend UI|Web Frontend UI]]
+- [[_COMMUNITY_Shipping Calculator|Shipping Calculator]]
+- [[_COMMUNITY_Cart Helper Module|Cart Helper Module]]
+- [[_COMMUNITY_Spring Observability|Spring Observability]]
+- [[_COMMUNITY_AWS EKS Infrastructure|AWS EKS Infrastructure]]
+- [[_COMMUNITY_Kernel and JPA Config|Kernel and JPA Config]]
+- [[_COMMUNITY_Frontend Controllers|Frontend Controllers]]
+- [[_COMMUNITY_Load Testing|Load Testing]]
+- [[_COMMUNITY_Health Check|Health Check]]
+- [[_COMMUNITY_Instana Headers Logging|Instana Headers Logging]]
+- [[_COMMUNITY_Catalogue Service|Catalogue Service]]
+- [[_COMMUNITY_MongoDB Data Access|MongoDB Data Access]]
+- [[_COMMUNITY_Retryable DataSource|Retryable DataSource]]
+- [[_COMMUNITY_Instana EUM Config|Instana EUM Config]]
+- [[_COMMUNITY_UHJ Robot Branding|UHJ Robot Branding]]
+- [[_COMMUNITY_SHCE Robot Branding|SHCE Robot Branding]]
+- [[_COMMUNITY_STAN Robot Branding|STAN Robot Branding]]
+- [[_COMMUNITY_Instana Icon Branding|Instana Icon Branding]]
+- [[_COMMUNITY_Graph Visualization|Graph Visualization]]
+- [[_COMMUNITY_WebPayment Services|Web/Payment Services]]
+- [[_COMMUNITY_Instana Logo|Instana Logo]]
+- [[_COMMUNITY_RMC Robot Branding|RMC Robot Branding]]
+- [[_COMMUNITY_HPTD Robot Branding|HPTD Robot Branding]]
+- [[_COMMUNITY_STAN2 Robot Branding|STAN2 Robot Branding]]
+- [[_COMMUNITY_Monitoring Robot Branding|Monitoring Robot Branding]]
+- [[_COMMUNITY_Instana Agent  Istio|Instana Agent / Istio]]
+- [[_COMMUNITY_Watson AI Branding|Watson AI Branding]]
+- [[_COMMUNITY_EMM Robot Branding|EMM Robot Branding]]
+- [[_COMMUNITY_Ewooid Robot Branding|Ewooid Robot Branding]]
+- [[_COMMUNITY_Dispatch  RabbitMQ|Dispatch / RabbitMQ]]
+- [[_COMMUNITY_RBAC Security|RBAC Security]]
+- [[_COMMUNITY_Auto-Complete JS|Auto-Complete JS]]
+- [[_COMMUNITY_AngularJS Shell|AngularJS Shell]]
+- [[_COMMUNITY_Alpha Robot Branding|Alpha Robot Branding]]
+- [[_COMMUNITY_Chatbot Branding|Chatbot Branding]]
+- [[_COMMUNITY_Blue Robot Branding|Blue Robot Branding]]
+- [[_COMMUNITY_Graphify Config|Graphify Config]]
+- [[_COMMUNITY_K8s Monitoring|K8s Monitoring]]
+- [[_COMMUNITY_Standalone Payment|Standalone Payment]]
+- [[_COMMUNITY_MongoDB Infra|MongoDB Infra]]
+- [[_COMMUNITY_MySQL Infra|MySQL Infra]]
+- [[_COMMUNITY_Ratings Infra|Ratings Infra]]
+- [[_COMMUNITY_Redis Infra|Redis Infra]]
+- [[_COMMUNITY_Shipping Infra|Shipping Infra]]
+- [[_COMMUNITY_User Infra|User Infra]]
+- [[_COMMUNITY_Cart Template|Cart Template]]
+- [[_COMMUNITY_Payment Template|Payment Template]]
+- [[_COMMUNITY_Shipping Template|Shipping Template]]
+- [[_COMMUNITY_Docker Network|Docker Network]]
+- [[_COMMUNITY_Helm Payment Config|Helm Payment Config]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Stan's Robot Shop Helm Chart` - 25 edges
-2. `City` - 16 edges
-3. `Controller` - 12 edges
-4. `error()` - 11 edges
-5. `payment service` - 10 edges
-6. `Ship` - 8 edges
-7. `Code` - 8 edges
-8. `Kernel` - 7 edges
-9. `InstanaHeadersLoggingProcessor` - 7 edges
-10. `pay()` - 6 edges
+2. `Robo Shop Helm Chart` - 25 edges
+3. `City` - 16 edges
+4. `Microservices Metrics Integration Guide` - 13 edges
+5. `Controller` - 12 edges
+6. `Payment Service` - 12 edges
+7. `Release ServiceAccount` - 12 edges
+8. `Web Frontend Service` - 12 edges
+9. `Robot Shop Resource Quota` - 12 edges
+10. `error()` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Stan's Robot Shop Helm Chart (EKS)` --semantically_similar_to--> `Stan's Robot Shop Helm Chart`  [INFERRED] [semantically similar]
   EKS/helm/README.md → K8s/helm/README.md
+- `Ratings Service` --conceptually_related_to--> `Ratings Table (sku, avg_rating, rating_count)`  [INFERRED]
+  docker-compose.yaml → mysql/scripts/20-ratings.sql
 - `Notes` --conceptually_related_to--> `EKS on Fargate`  [AMBIGUOUS]
   Notes.txt → EKS/02-eks-cluster-setup.md
-- `Payment Error Injection (ERROR=1)` --conceptually_related_to--> `payment service`  [EXTRACTED]
-  load-gen/README.md → payment/requirements.txt
-- `pika (RabbitMQ client)` --conceptually_related_to--> `rabbitmq service`  [INFERRED]
-  payment/requirements.txt → K8s/helm/README.md
-- `Frontend Layer` --conceptually_related_to--> `Product Details UI Page`  [INFERRED]
-  README.md → web/static/product.html
+- `Cloud-Native Microservices Platform on EKS` --references--> `Graphify Knowledge Graph Documentation`  [INFERRED]
+  README.md → GEMINI.md
+- `Cloud-Native Microservices Platform on EKS` --references--> `Graphify Knowledge Graph Documentation`  [INFERRED]
+  README.md → CLAUDE.md
 
 ## Hyperedges (group relationships)
-- **Payment Service Runtime/Observability Stack** — payment_service, payment_requirements_flask, payment_requirements_uwsgi, payment_requirements_prometheus_client, payment_requirements_opentracing, payment_requirements_instana [INFERRED 0.82]
-- **Checkout Flow UI** — web_static_cart_html, web_static_shipping_html, web_static_payment_html [INFERRED 0.72]
-- **Robot Shop Microservices** — robot_shop_microservice_cart, robot_shop_microservice_catalogue, robot_shop_microservice_dispatch, robot_shop_microservice_mongodb, robot_shop_microservice_mysql, payment_service, robot_shop_microservice_rabbitmq, robot_shop_microservice_ratings, robot_shop_microservice_redis, robot_shop_microservice_shipping, robot_shop_microservice_user, robot_shop_microservice_web [EXTRACTED 1.00]
-- **Instana Visual Identity** — placeholder_instana_logo, placeholder_instana_robot_mascot, placeholder_instana_wordmark, placeholder_instana_teal_accent [INFERRED 0.82]
-- **Watson Visual Identity** — watson_logo, watson_blue_gradient_palette, watson_radiating_rays [INFERRED 0.80]
-- **RMC Robot Visual Identity** — rmc_robot_mascot, rmc_gear_emblem, rmc_blue_gray_color_palette, rmc_claw_hands [INFERRED 0.80]
-- **CNA Bot Identity** — cna_robot_mascot, cna_terminal_panel, cna_chatbot_assistant [INFERRED 0.72]
-- **Robot Visual Identity** — emm_robot_icon, emm_robotic_assistant, emm_automation_gears, emm_mechanical_claw_arms [INFERRED 0.84]
-- **UHJ Robot Visual Identity** — uhj_robot_mascot, uhj_blue_gray_color_palette, uhj_gear_emblem, uhj_single_eye_design [INFERRED 0.83]
-- **SHCE Robot Visual Identity** — shce_robot_mascot, shce_blue_gray_color_palette, shce_gear_emblem, shce_claw_arms [INFERRED 0.83]
-- **HPTD Robot Visual Identity** — hptd_robot_mascot, hptd_blue_color_palette, hptd_gear_icons [INFERRED 0.80]
-- **Ewooid Robot Visual Identity** — ewooid_robot_mascot, ewooid_blue_gray_color_palette, ewooid_flat_vector_icon_style [INFERRED 0.82]
-- **STAN Visual Identity** — stan_1_robot_mascot, stan_1_stan_wordmark, stan_1_navy_gray_color_palette [INFERRED 0.82]
-- **RED Bot Visual Identity** — red_robot_mascot, red_blue_color_palette, red_status_gauge [INFERRED 0.80]
-- **STAN Visual Identity** — stan_robot_mascot, stan_stan_wordmark, stan_cyan_glow_aura, stan_white_gray_color_palette [INFERRED 0.83]
-- **Instana Visual Identity** — instana_icon_square, instana_robot_head_logo, instana_teal_eye_accents, instana_dark_gray_palette [INFERRED 0.82]
-- **Graph Visualization Elements** — graph_network_graph_visualization, graph_nodes_points, graph_edges_links, graph_gradient_background [INFERRED 0.80]
-- **Three-Tier Architecture Components** — readme_frontend_layer, readme_backend_layer, readme_data_layer [EXTRACTED 1.00]
-- **DevOps Workflow Tool Integration** — readme_docker, readme_kubernetes, readme_prometheus, readme_grafana [EXTRACTED 1.00]
-- **Frontend UI Page Components** — product_html_page, login_html_page, search_html_page [EXTRACTED 1.00]
+- **RBAC PodSecurityPolicy Enforcement System** — clusterrole_release, clusterrolebinding_release, serviceaccount_release, podsecuritypolicy_release, cart_deployment, catalogue_deployment, dispatch_deployment, mongodb_deployment, mysql_deployment, payment_deployment, rabbitmq_deployment, ratings_deployment, redis_statefulset, shipping_deployment [EXTRACTED 0.95]
+- **Robo Shop Microservices Application** — chart_robo_shop, cart_deployment, catalogue_deployment, dispatch_deployment, mongodb_deployment, mysql_deployment, payment_deployment, rabbitmq_deployment, ratings_deployment, redis_statefulset, shipping_deployment, ingress_robo_shop, cart_service, catalogue_service, dispatch_service, mongodb_service, mysql_service, payment_service, rabbitmq_service, ratings_service, redis_service [INFERRED 0.95]
+- **Robot Shop Application Stack** — docker_compose_mongodb, docker_compose_redis, docker_compose_rabbitmq, docker_compose_catalogue, docker_compose_user, docker_compose_cart, docker_compose_mysql, docker_compose_shipping, docker_compose_ratings, docker_compose_payment, docker_compose_dispatch, docker_compose_web [EXTRACTED 1.00]
+- **Observability Stack (Prometheus + Grafana + Metrics)** — prometheus_deployment_prometheus, grafana_deployment_grafana, prometheus_deployment_config, grafana_deployment_datasources, grafana_deployment_dashboards [EXTRACTED 1.00]
+- **EKS Helm Deployment Group** — eks_helm_templates_shipping_service, eks_helm_templates_user_deployment, eks_helm_templates_user_service, eks_helm_templates_web_deployment, eks_helm_templates_web_service, eks_helm_values_image, eks_helm_values_eum, eks_helm_values_psp, eks_helm_values_payment_gateway [EXTRACTED 1.00]
+- **Istio Canary Deployment for Payment** — canary_canary_test, canary_robotshop_canary, payment_deployment_fix_payment_fix, docker_compose_payment [EXTRACTED 1.00]
+- **Metrics Integration Initiative** — microservices_metrics_guide, observability_index, observability_setup, prometheus_deployment_prometheus, grafana_deployment_grafana, metrics_concept_prom_client, metrics_concept_micrometer, metrics_concept_prometheus_client [EXTRACTED 1.00]
+- **RobotShop Microservices System** — dispatch_deployment_dispatch, mongodb_deployment_mongodb, mysql_deployment_mysql, payment_deployment_payment, rabbitmq_deployment_rabbitmq, ratings_deployment_ratings, redis_statefulset_redis, shipping_deployment_shipping, user_deployment_user, web_deployment_web [INFERRED 0.90]
 
-## Communities
+## Communities (63 total, 21 thin omitted)
 
-### Community 0 - "Error Handling & Utilities"
-Cohesion: 0.09
-Nodes (15): CatalogueService, HttpUser, countItems(), exception_handler(), health(), metrics(), pay(), queueOrder() (+7 more)
+### Community 0 - "Core Microservices Stack"
+Cohesion: 0.07
+Nodes (49): Ratings Database Schema, Ratings Table (sku, avg_rating, rating_count), Canary Test Istio DestinationRule, Canary Istio VirtualService, Robot Shop Helm Chart v1.1.0, Cart Service, Catalogue Service, Dispatch Service (+41 more)
 
-### Community 1 - "Payment Service"
+### Community 1 - "PHP Service Implementations"
+Cohesion: 0.07
+Nodes (17): CatalogueService, Database, HttpUser, InstanaDataCenterListener, countItems(), exception_handler(), health(), metrics() (+9 more)
+
+### Community 2 - "Helm Chart Configuration"
 Cohesion: 0.06
 Nodes (34): Stan's Robot Shop Helm Chart (EKS), Helm Value: redis.storageClassName (EKS default gp2), Default Payment Provider: https://www.paypal.com, Helm Values: eum.key + eum.url (End-User Monitoring), Helm Value: image.repo, Helm Value: image.version, Minikube/Minishift NodePort Usage, Helm Value: nodeport (+26 more)
 
-### Community 2 - "Shipping & Logistics"
+### Community 3 - "Helm Deployment Templates"
+Cohesion: 0.11
+Nodes (32): Cart Deployment, Cart Service, Catalogue Deployment, Catalogue Service, Robo Shop Helm Chart, Release ClusterRole, Release ClusterRoleBinding, Dispatch Deployment (+24 more)
+
+### Community 4 - "Shipping Data Layer"
 Cohesion: 0.07
 Nodes (4): CityRepository, CodeRepository, Controller, Ship
 
-### Community 3 - "Code & Schema"
+### Community 5 - "Web Frontend UI"
+Cohesion: 0.09
+Nodes (28): Graphify Knowledge Graph Documentation, Frontend User Interaction Management, Graphify Knowledge Graph Documentation, User Authentication (Login/Register), Order History Display, Login and Registration Page Template, Add to Cart Functionality, Product Inventory Check (+20 more)
+
+### Community 7 - "Cart Helper Module"
 Cohesion: 0.1
 Nodes (3): CartHelper, Code, Publisher
 
-### Community 4 - "City & Calculator"
-Cohesion: 0.1
-Nodes (2): Calculator, City
-
-### Community 5 - "Order Processing"
-Cohesion: 0.15
-Nodes (15): User Login Form, User Order History Display, Login and Registration UI Page, User Registration Form, Add to Cart Functionality, Product Details UI Page, Product Rating and Voting Feature, Backend Layer (Microservices) (+7 more)
-
-### Community 6 - "User Management"
+### Community 8 - "Spring Observability"
 Cohesion: 0.23
 Nodes (6): BeanPostProcessor, HandlerInterceptorAdapter, DataSourcePostProcessor, InstanaDatacenterTagInterceptor, ShippingServiceApplication, WebMvcConfigurer
 
-### Community 7 - "Ratings API"
+### Community 9 - "AWS EKS Infrastructure"
 Cohesion: 0.16
 Nodes (14): AWS EBS CSI Driver, EKS on Fargate, AWS Load Balancer Controller, ALB Controller Setup, EKS Cluster: roboshop, EKS Cluster Setup, EBS CSI Driver Setup, IAM OIDC Provider Setup (+6 more)
 
-### Community 8 - "Frontend Components"
-Cohesion: 0.15
-Nodes (2): JpaConfig, Kernel
-
-### Community 9 - "Monitoring & Observability"
+### Community 11 - "Frontend Controllers"
 Cohesion: 0.3
 Nodes (10): buildauto(), clearMessage(), getCategories(), getUniqueid(), loadCart(), loadCodes(), loadHistory(), loadProduct() (+2 more)
 
-### Community 10 - "Component 10"
+### Community 12 - "Load Testing"
 Cohesion: 0.18
 Nodes (11): Stan's Robot Shop Install (Kubernetes), Horizontal Pod Autoscaler (HPA), K8s/autoscale.sh, K8s/load-deployment.yaml, Load Config Environment Variables (HOST, NUM_CLIENTS, RUN_TIME, ERROR, SILENT), load-gen.sh, Load Generation, Kubernetes metrics-server (+3 more)
 
-### Community 11 - "Component 11"
-Cohesion: 0.27
-Nodes (11): AWS Elastic Kubernetes Service, DevOps Workflow Pipeline, Docker Containerization, Grafana Visualization, Ingress Controller for External Access, Kubernetes Orchestration, Monitoring and Observability Strategy, Nginx Reverse Proxy (+3 more)
-
-### Community 12 - "Component 12"
-Cohesion: 0.2
-Nodes (2): HealthCheckService, HealthController
-
-### Community 13 - "Component 13"
-Cohesion: 0.29
-Nodes (1): InstanaHeadersLoggingProcessor
-
-### Community 14 - "Component 14"
+### Community 15 - "Catalogue Service"
 Cohesion: 0.48
 Nodes (5): calcTax(), calcTotal(), getProduct(), mergeList(), saveCart()
 
-### Community 15 - "Component 15"
-Cohesion: 0.6
-Nodes (2): mongoConnect(), mongoLoop()
-
-### Community 16 - "Component 16"
-Cohesion: 0.47
-Nodes (2): AbstractDataSource, RetryableDataSource
-
-### Community 17 - "Component 17"
+### Community 18 - "Instana EUM Config"
 Cohesion: 0.33
 Nodes (6): ENV: INSTANA_EUM_KEY, Instana End User Monitoring (EUM), Microservices Ecommerce Demo App, EUM Disabled Placeholder, Instana EUM Snippet Template, Splash Page (Welcome / Tech Stack)
 
-### Community 18 - "Component 18"
+### Community 19 - "UHJ Robot Branding"
 Cohesion: 0.47
 Nodes (6): Blue-Gray Color Palette, Branding Asset, Gear Emblem, UHJ Robot Mascot, Single-Eye (Cyclops) Design, Wheeled Base
 
-### Community 19 - "Component 19"
+### Community 20 - "SHCE Robot Branding"
 Cohesion: 0.33
 Nodes (6): Antennae, Blue-Gray Color Palette, Branding Asset, Claw Arms, Gear Emblem, SHCE Robot Mascot
 
-### Community 20 - "Component 20"
+### Community 21 - "STAN Robot Branding"
 Cohesion: 0.47
 Nodes (6): Branding Asset, Cyan Glow Aura, Friendly Robot Character Design, STAN Robot Mascot, STAN Wordmark, White and Gray Color Palette
 
-### Community 21 - "Component 21"
+### Community 22 - "Instana Icon Branding"
 Cohesion: 0.33
 Nodes (6): Branding Asset, Dark Gray Color Palette, Gray Gradient Base/Shadow, Instana Icon (Square), Robot Head Logo Mark, Teal Eye Accents
 
-### Community 22 - "Component 22"
+### Community 23 - "Graph Visualization"
 Cohesion: 0.4
 Nodes (6): Dense Connectivity Pattern, Graph Edges (Links), Force-Directed Layout, Purple-to-Teal Gradient Background, Network Graph Visualization, Graph Nodes (Points)
 
-### Community 23 - "Component 23"
-Cohesion: 0.4
-Nodes (1): Database
+### Community 24 - "Web/Payment Services"
+Cohesion: 0.33
+Nodes (6): Payment Deployment, Payment Service, Helm Values Configuration, Web Deployment, Web OpenShift Route, Web Service
 
-### Community 24 - "Component 24"
-Cohesion: 0.4
-Nodes (1): InstanaDataCenterListener
-
-### Community 25 - "Component 25"
+### Community 25 - "Instana Logo"
 Cohesion: 0.5
 Nodes (5): Instana Logo, Minimal Flat Logo Style, Robot Mascot (Head Icon), Teal Accent Color (Eyes), INSTANA Wordmark
 
-### Community 26 - "Component 26"
+### Community 26 - "RMC Robot Branding"
 Cohesion: 0.4
 Nodes (5): Blue/Gray Color Palette, Branding Asset, Claw Hands, Gear Emblem, RMC Robot Mascot
 
-### Community 27 - "Component 27"
+### Community 27 - "HPTD Robot Branding"
 Cohesion: 0.4
 Nodes (5): Automation Theme, Blue Color Palette, Branding Asset, Gear Icons, HPTD Robot Mascot
 
-### Community 28 - "Component 28"
+### Community 28 - "STAN2 Robot Branding"
 Cohesion: 0.5
 Nodes (5): Branding Asset, Friendly Robot Character Design, Navy and Gray Color Palette, STAN Robot Mascot, STAN Wordmark
 
-### Community 29 - "Component 29"
+### Community 29 - "Monitoring Robot Branding"
 Cohesion: 0.4
 Nodes (5): Blue Color Palette, Branding Asset, Monitoring/Status Theme, Robot Mascot, Status Gauge
 
-### Community 30 - "Component 30"
+### Community 30 - "Instana Agent / Istio"
 Cohesion: 0.5
 Nodes (4): instana-agent Helm Chart (stable/instana-agent), Instana Agent Install (Kubernetes), Istio Ingress Gateway (istio-ingressgateway service), Istio Service Mesh
 
-### Community 31 - "Component 31"
+### Community 31 - "Watson AI Branding"
 Cohesion: 0.67
 Nodes (4): AI Branding Asset, Blue Gradient Color Palette, Watson Logo Mark, Radiating Rays Motif
 
-### Community 32 - "Component 32"
+### Community 32 - "EMM Robot Branding"
 Cohesion: 0.83
 Nodes (4): Automation Gears, Mechanical Claw Arms, EMM Robot Icon, Robotic Assistant
 
-### Community 33 - "Component 33"
+### Community 33 - "Ewooid Robot Branding"
 Cohesion: 0.5
 Nodes (4): Blue-Gray Color Palette, Branding Asset, Flat Vector Icon Style, Ewooid Robot Mascot
 
-### Community 34 - "Component 34"
-Cohesion: 0.67
-Nodes (1): autoComplete()
+### Community 34 - "Dispatch / RabbitMQ"
+Cohesion: 0.5
+Nodes (4): Dispatch Deployment, Dispatch Service, RabbitMQ Deployment, RabbitMQ Service
 
-### Community 35 - "Component 35"
+### Community 35 - "RBAC Security"
+Cohesion: 0.5
+Nodes (4): ClusterRole, ClusterRoleBinding, PodSecurityPolicy, ServiceAccount
+
+### Community 37 - "AngularJS Shell"
 Cohesion: 0.67
 Nodes (3): AngularJS 1.6.7, Stan's Robot Shop, Index Page Shell (AngularJS)
 
-### Community 36 - "Component 36"
+### Community 38 - "Alpha Robot Branding"
 Cohesion: 0.67
 Nodes (3): Blue Color Palette, Branding Asset, Aplha Robot Mascot
 
-### Community 37 - "Component 37"
+### Community 39 - "Chatbot Branding"
 Cohesion: 0.67
 Nodes (3): Chatbot Assistant, Robot Mascot, Terminal Panel
 
-### Community 38 - "Component 38"
+### Community 40 - "Blue Robot Branding"
 Cohesion: 0.67
 Nodes (3): Claw Arms, Gear Motif, Blue Robot Mascot
-
-### Community 39 - "Component 39"
-Cohesion: 1.0
-Nodes (2): graphify Knowledge Graph (graphify-out/), Agent Instructions
-
-### Community 40 - "Component 40"
-Cohesion: 1.0
-Nodes (2): Instana Kubernetes Dashboards, Kubernetes Resource Quotas
-
-### Community 49 - "Component 49"
-Cohesion: 1.0
-Nodes (1): Cart Template
-
-### Community 50 - "Component 50"
-Cohesion: 1.0
-Nodes (1): Payment / Order Review Template
-
-### Community 51 - "Component 51"
-Cohesion: 1.0
-Nodes (1): Shipping Template
-
-### Community 52 - "Component 52"
-Cohesion: 1.0
-Nodes (1): Graphify Knowledge Graph Guide
-
-### Community 53 - "Component 53"
-Cohesion: 1.0
-Nodes (1): Graphify Knowledge Graph Guide (Claude Version)
 
 ## Ambiguous Edges - Review These
 - `Notes` → `EKS on Fargate`  [AMBIGUOUS]
   Notes.txt · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **100 isolated node(s):** `on_start is called when a Locust start before any task is scheduled`, `Agent Instructions`, `graphify Knowledge Graph (graphify-out/)`, `Rationale: avoid Fargate for Redis + PV`, `uWSGI` (+95 more)
+- **145 isolated node(s):** `on_start is called when a Locust start before any task is scheduled`, `Agent Instructions`, `graphify Knowledge Graph (graphify-out/)`, `Rationale: avoid Fargate for Redis + PV`, `uWSGI` (+140 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `City & Calculator`** (22 nodes): `Calculator`, `.Calculator()`, `.getDistance()`, `City`, `.getCity()`, `.getCode()`, `.getLatitude()`, `.getLongitude()`, `.getName()`, `.getRegion()`, `.getUuid()`, `.setCity()`, `.setCode()`, `.setLatitude()`, `.setLongitude()`, `.setName()`, `.setRegion()`, `.toString()`, `Calculator.java`, `City.java`, `Calculator.java`, `City.java`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Frontend Components`** (13 nodes): `.getenv()`, `Kernel.php`, `JpaConfig.java`, `JpaConfig`, `.getDataSource()`, `Kernel`, `.configureContainer()`, `.configureRoutes()`, `.corsResponseFilter()`, `.getSubscribedEvents()`, `.registerBundles()`, `Kernel.php`, `JpaConfig.java`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 12`** (10 nodes): `HealthCheckService`, `.checkConnectivity()`, `.__construct()`, `HealthController`, `.__construct()`, `.__invoke()`, `HealthController.php`, `HealthCheckService.php`, `HealthController.php`, `HealthCheckService.php`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 13`** (8 nodes): `InstanaHeadersLoggingProcessor.php`, `InstanaHeadersLoggingProcessor`, `.addHeaderData()`, `.getSubscribedEvents()`, `.__invoke()`, `.removeHeaderData()`, `.reset()`, `InstanaHeadersLoggingProcessor.php`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 15`** (6 nodes): `server.js`, `server.js`, `server.js`, `mongoConnect()`, `mongoLoop()`, `server.js`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 16`** (6 nodes): `AbstractDataSource`, `RetryableDataSource.java`, `RetryableDataSource`, `.getConnection()`, `.RetryableDataSource()`, `RetryableDataSource.java`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 23`** (5 nodes): `Database`, `.__construct()`, `.getConnection()`, `Database.php`, `Database.php`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 24`** (5 nodes): `InstanaDataCenterListener.php`, `InstanaDataCenterListener`, `.__construct()`, `.__invoke()`, `InstanaDataCenterListener.php`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 34`** (3 nodes): `autoComplete()`, `auto-complete.js`, `auto-complete.js`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 39`** (2 nodes): `graphify Knowledge Graph (graphify-out/)`, `Agent Instructions`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 40`** (2 nodes): `Instana Kubernetes Dashboards`, `Kubernetes Resource Quotas`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 49`** (1 nodes): `Cart Template`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 50`** (1 nodes): `Payment / Order Review Template`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 51`** (1 nodes): `Shipping Template`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 52`** (1 nodes): `Graphify Knowledge Graph Guide`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Component 53`** (1 nodes): `Graphify Knowledge Graph Guide (Claude Version)`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **21 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What is the exact relationship between `Notes` and `EKS on Fargate`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `Controller` connect `Shipping & Logistics` to `Frontend Components`, `Code & Schema`?**
-  _High betweenness centrality (0.058) - this node is a cross-community bridge._
-- **Why does `queueOrder()` connect `Error Handling & Utilities` to `Frontend Components`?**
-  _High betweenness centrality (0.045) - this node is a cross-community bridge._
-- **Are the 9 inferred relationships involving `error()` (e.g. with `exception_handler()` and `pay()`) actually correct?**
-  _`error()` has 9 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `Controller` connect `Shipping Data Layer` to `Kernel and JPA Config`, `Cart Helper Module`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+- **Why does `queueOrder()` connect `PHP Service Implementations` to `Kernel and JPA Config`?**
+  _High betweenness centrality (0.028) - this node is a cross-community bridge._
 - **What connects `on_start is called when a Locust start before any task is scheduled`, `Agent Instructions`, `graphify Knowledge Graph (graphify-out/)` to the rest of the system?**
-  _100 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Error Handling & Utilities` be split into smaller, more focused modules?**
-  _Cohesion score 0.09 - nodes in this community are weakly interconnected._
-- **Should `Payment Service` be split into smaller, more focused modules?**
+  _145 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Core Microservices Stack` be split into smaller, more focused modules?**
+  _Cohesion score 0.07 - nodes in this community are weakly interconnected._
+- **Should `PHP Service Implementations` be split into smaller, more focused modules?**
+  _Cohesion score 0.07 - nodes in this community are weakly interconnected._
+- **Should `Helm Chart Configuration` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._
