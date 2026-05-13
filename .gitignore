@@ -39,9 +39,15 @@ Notes.txt
 docker-compose.load.yaml
 docker-compose.yaml
 
-pullbaseimages.yaml
+
 
 .github/workflows/push.yml
 .github/workflows/dispatch.yaml
 
 
+.opencode
+.graphify_incremental.json
+
+
+
+pullbaseimages.sh
